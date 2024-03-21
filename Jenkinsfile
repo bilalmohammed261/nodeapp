@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/Sudarsh-an/nodejs.git', branch: 'main'])
+        git([url: 'https://github.com/bilalmohammed261/nodeapp.git', branch: 'main'])
  
       }
     }
